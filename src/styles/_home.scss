@@ -1,27 +1,55 @@
+#root{
+  min-height: 100vh;
+}
+
 header{
-  background: white;
+  background: url('.././images/05.png');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-top: 70px;
+  height: 100%;
+  position: fixed;
+  
 }
 
-.costanza-header{
-  background: #db4c5f;
-  height: 100vh;
-  animation: fade-in 0.2s ease-in-out;
+h1{
+  font-family: 'DM Serif Display', serif;
+  // font-family: 'Playfair Display', serif;
+  font-size: 195px;
+  letter-spacing: 0.08em;
+  margin: 0;
+  text-transform: uppercase;
 }
 
-.cityspace-header{
-  background: #4a3bce;
-  height: 100vh;
-  animation: fade-in 0.4s ease-in-out;
+.title{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  -webkit-transform: translateY(-40%);
+  transform: translateY(-40%);
 }
 
-.whatsInYourFridge-header{
-  background: #a2ce3b;
-  height: 100vh;
-  animation: fade-in 0.4s ease-in-out;
+.aboutMe-wrapper{
+  -webkit-transform: translateY(-60%);
+  transform: translateY(-60%);
 }
 
-.paperTetris-header{
-  background: #a2ce3b;
-  height: 100vh;
-  animation: fade-in 0.4s ease-in-out;
+@media (max-width: 1200px) {
+  h1{
+    font-size: 165px;
+  }
+}
+
+@media (max-width: 1000px) {
+  h1{
+    font-size: 130px;
+  }
+}
+
+@media (max-width: 699px){
+  h1{
+    font-size: 100px;
+  }
 }

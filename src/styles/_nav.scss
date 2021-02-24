@@ -26,20 +26,21 @@ nav{
   height: 1px;
   background-color: black;
   width: 80%;
-  margin: 50px auto;
+  margin: 50px auto 50px;
 }
 
 .navBar-item{
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-size: 25px;
+  font-weight: 900;
 }
 .navBar-item:hover{
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 1px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
 
     .nav-items-desktop{
       display: flex;
