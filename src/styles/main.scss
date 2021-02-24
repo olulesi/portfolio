@@ -3,10 +3,39 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Playfair+Display&display=swap');
 @import '_home.scss';
 @import '_nav.scss';
+@import '_skills.scss';
+
+@font-face{
+  font-family: Atkinson-Hyperlegible-Regular-102;
+  src: url(fonts/Atkinson-Hyperlegible-Regular-102.ttf);
+}
+
+@font-face{
+  font-family: Atkinson-Hyperlegible-Bold-102;
+  src: url(fonts/Atkinson-Hyperlegible-Bold-102.ttf);
+}
+
+@font-face{
+  font-family: Atkinson-Hyperlegible-Italic-102;
+  src: url(fonts/Atkinson-Hyperlegible-Italic-102.ttf);
+}
+
+@font-face{
+  font-family: Atkinson-Hyperlegible-BoldItalic-102;
+  src: url(fonts/Atkinson-Hyperlegible-BoldItalic-102.ttf);
+}
 
 body{
   margin: 0;
   padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:focus, a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
 }
 
 .landingPage-wrapper{

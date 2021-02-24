@@ -1,5 +1,6 @@
 import React from 'react'
 import Media from 'react-media';
+import { Link } from 'react-router-dom'
 
 
 function Nav() {
@@ -15,24 +16,24 @@ function Nav() {
               {matches =>
                 matches.large ? (
                   <>
-                    <div className="navBar-item">Projects</div>
-                    <div className="navBar-item">Experience</div>
-                    <div className="logo">Lesi</div>
-                    <div className="navBar-item">Skills</div>
-                    <div className="navBar-item">Contact</div>
+                     <Link to="/projects" className="navBar-item">Projects</Link>
+                     <Link to="/experience" className="navBar-item">Experience</Link>
+                    <Link to="/" className="logo">Les(h)i</Link>
+                    <Link to="/skills" className="navBar-item">Skills</Link>
+                    <Link to="/contact" className="navBar-item">Contact</Link>
                   </>
 
                 ) : (
                     <>
-                      <div className="logo">Lesi</div>
+                      <Link to="/" className="logo">Les(h)i</Link>
                       <div className="ui divider mobile-div"></div>
-                      <div className="navBar-item">Projects</div>
+                      <Link to="/projects" className="navBar-item">Projects</Link>
                       <div className="ui divider mobile-div"></div>
-                      <div className="navBar-item">Experience</div>
+                      <Link to="/experience" className="navBar-item">Experience</Link>
                       <div className="ui divider mobile-div"></div>
-                      <div className="navBar-item">Skills</div>
+                      <Link to="/skills" className="navBar-item">Skills</Link>
                       <div className="ui divider mobile-div"></div>
-                      <div className="navBar-item">Contact</div>
+                      <Link to="/contact" className="navBar-item">Contact</Link>
                     </>
                   )
               }

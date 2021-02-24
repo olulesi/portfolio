@@ -6,8 +6,8 @@ nav{
   width: 100%;
   font-size: 34px;
   font-family: 'B612', sans-serif;
-  color: #787586;
   // position: fixed;
+  
   
 }
 
@@ -35,10 +35,18 @@ nav{
   letter-spacing: 0.08em;
   font-size: 25px;
   font-weight: 900;
+  font-family: Atkinson-Hyperlegible-Regular-102;
+  color: #787586;
 }
 .navBar-item:hover{
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke-width: 1px;
+}
+
+.logo{
+  font-family: Atkinson-Hyperlegible-Bold-102;
+  color: #787586;
+  text-transform: uppercase;
 }
 
 @media (max-width: 1000px) {
