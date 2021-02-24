@@ -1,25 +1,21 @@
 import React from 'react'
-import Tilt from 'react-parallax-tilt'
-import { FingerprintSpinner } from 'react-epic-spinners'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+
+import LandingPage from './components/LandingPage'
+import Home from './components/Home'
+import Nav from './components/Nav'
 
 function App() {
 
   return (
     <>
-    <section>
-        <Tilt>
-          <div className="construction-card">
-            <div>
-              <span>Currently Under Construction</span>
-              <FingerprintSpinner
-	      color='#000000'
-	      size='200'
-	      />
-            </div>
-          </div>
-        </Tilt>
-        
-      </section>   
+    <BrowserRouter>
+      <Nav />
+      <Switch>
+        <Route exact path="/" component={LandingPage} />
+        <Route exact path="/start" component={Home} />
+      </Switch>
+    </BrowserRouter>
     </>
   )
 

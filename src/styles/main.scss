@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=B612:wght@700&display=swap');
+@import '_home.scss';
+@import '_nav.scss';
 
+body{
+  margin: 0;
+  padding: 0;
+}
 
-section{
+.landingPage-wrapper{
   background: 20%/ 5em;
   background-image: linear-gradient( 76.3deg,  rgba(44,62,78,1) 12.6%, rgba(69,103,131,1) 82.8% );
   transition: .8s ease-in-out;
@@ -44,17 +51,20 @@ section{
   100%{background-position:30% 0%}
 }
 
-@keyframes blinds {
-  to {
-    background-image: linear-gradient(90deg, #f90 100%, #444 0);
-  }
-}
-
 @keyframes fade-in {
   0% {
     opacity: 0;
   }
   100% {
     opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
