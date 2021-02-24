@@ -8,10 +8,14 @@ function Home() {
      <header className="homePage-wrapper">
         <div className="title">
           <h1>Tobi Lesi</h1>
-          <h3>Junior Software Developer</h3>
+          <h3>Junior Software Engineer</h3>
         </div>
         <div className="aboutMe-wrapper">
-          <h4 className="aboutMe-title">About Me</h4>
+          <div className="aboutMe-title">
+            <h4>
+              About Me
+            </h4>
+          </div>
           <div className="ui divider aboutMe-div"></div>
           <div className="aboutMe-content">
             <div className="first-section">
