@@ -3,7 +3,6 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 import LandingPage from './components/LandingPage'
 import Home from './components/Home'
-import Nav from './components/Nav'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import ProjectShow from './components/ProjectShow'
@@ -15,7 +14,6 @@ function App() {
   return (
     <>
     <BrowserRouter>
-      <Nav />
       <Switch>
         <Route exact path="/start" component={LandingPage} />
         <Route exact path="/" component={Home} />

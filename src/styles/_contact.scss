@@ -1,0 +1,78 @@
+.contact-title{
+  font-size: 50px;
+  width: 90%;
+  margin: 0 auto 100px;
+  display: flex;
+  h4{
+    margin: 0;
+  }
+
+}
+
+.contact-wrapper{
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.texture-banner{
+  height: 50vh;
+  position: fixed;
+  width: 100%;
+  background: url('.././images/blackScales.png');
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 0;
+}
+
+
+.contact-social{
+  width: 100px;
+  height: 100px;
+  background: transparent;
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.4);
+  border-right: 1px solid rgba(255,255,255,0.2);
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  box-shadow: 0 5px 45px rgba(0,0,0,0.1);
+  backdrop-filter: blur(2px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.contact-social:hover{
+  transform: translateY(-20px);
+}
+
+.contact-social::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 100%;
+  background: rgba(255,255,255,0.5);
+  transform: skewX(45deg) translateX(150px);
+}
+
+.contact-social:hover::before{
+  transform: skewX(45deg) translateX(-150px);
+}
+
+.contact-content{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 600px;
+}
+
+
+.social{
+  font-size: 40px;
+  color: #4a4a4a;
+}

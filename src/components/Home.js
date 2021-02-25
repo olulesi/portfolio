@@ -1,4 +1,5 @@
 import React from 'react'
+import Nav from './Nav'
 
 function Home() {
 
@@ -17,7 +18,7 @@ function Home() {
             </h4>
           </div> */}
           {/* <div className="ui divider aboutMe-div"></div> */}
-          <div className="aboutMe-content">
+          {/* <div className="aboutMe-content">
             <div className="first-section">
               My introduction to programming came whilst I was studying my Bachelor in Computer Science. My interest began spending time outside the class to learn the fundamentals of Web Development on Udemy.
             </div>
@@ -30,9 +31,12 @@ function Home() {
             <div className="fourth-section">
               I am looking for a team where we can be constantly challenging each other to meet the loft ambitions that we strategise towards. In order to highlight my unwavering determination to reach the goals set in front of me.
             </div>
-          </div>
+          </div> */}
         </div>
+        
       </header>
+      <Nav />
+      
     </>
   )
 

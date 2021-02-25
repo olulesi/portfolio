@@ -1,10 +1,12 @@
 import React from 'react'
+import Nav from './Nav'
 
 function Skills() {
 
   return (
 
     <>
+      <Nav />
       <section className="skills-wrapper">
         <div className="skills-content">
           <div className="skills-title">
