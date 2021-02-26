@@ -23,7 +23,8 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.2",
     "react-social-icons": "^4.1.0",
-    "semantic-ui-react": "^2.0.3"
+    "semantic-ui-react": "^2.0.3",
+    "swiper": "^6.4.15"
   },
   "scripts": {
     "start": "react-scripts start",

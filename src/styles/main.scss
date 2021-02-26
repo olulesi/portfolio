@@ -5,6 +5,15 @@
 @import '_nav.scss';
 @import '_skills.scss';
 @import '_contact.scss';
+@import '_experience.scss';
+@import '_projects.scss';
+
+
+@import 'swiper/swiper.scss';
+@import 'swiper/components/navigation/navigation.scss';
+@import 'swiper/components/pagination/pagination.scss';
+@import 'swiper/components/scrollbar/scrollbar.scss';
+@import 'swiper/components/effect-coverflow/effect-coverflow.scss';
 
 @font-face{
   font-family: Atkinson-Hyperlegible-Regular-102;
@@ -25,6 +34,13 @@
   font-family: Atkinson-Hyperlegible-BoldItalic-102;
   src: url(fonts/Atkinson-Hyperlegible-BoldItalic-102.ttf);
 }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 
 body{
   margin: 0;

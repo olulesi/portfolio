@@ -11,7 +11,7 @@ function Home() {
           <h1>Tobi Lesi</h1>
           <h3>Junior Software Engineer</h3>
         </div>
-        <div className="aboutMe-wrapper">
+        {/* <div className="aboutMe-wrapper"> */}
           {/* <div className="aboutMe-title">
             <h4>
               About Me
@@ -32,7 +32,7 @@ function Home() {
               I am looking for a team where we can be constantly challenging each other to meet the loft ambitions that we strategise towards. In order to highlight my unwavering determination to reach the goals set in front of me.
             </div>
           </div> */}
-        </div>
+        {/* </div> */}
         
       </header>
       <Nav />
