@@ -86,7 +86,6 @@ function Experience() {
               </div>
             </div>
           </SwiperSlide>
-          <SwiperSlide></SwiperSlide>
         </Swiper>
       </section>
     </>
