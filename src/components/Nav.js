@@ -44,7 +44,5 @@ function Nav() {
       </section>
     </>
   )
-
-
 }
 export default Nav
