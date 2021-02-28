@@ -10,8 +10,7 @@ header{
   // // background: #ACA7CB;
   // background-position: center;
   // background-size: cover;
-  margin-bottom: 85px;
-  height: 50vh;
+  // min-height: 100vh;
   width: 100%;
   // position: fixed;
   display: flex;
@@ -41,9 +40,9 @@ h1{
   align-items: center;
   flex-direction: column;
   width: 100%;
-  -webkit-transform: translateY(50%);
-  transform: translateY(75%);
-  margin-bottom: 210px;
+  margin-top: 125px;
+  // transform: translateY(45%);
+
 }
 
 h3{
@@ -140,15 +139,33 @@ h3{
 
 
 @media (max-width: 1200px) {
+  .homePage-wrapper{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .title{
+    margin-top: 0;
+  }
   h1{
     font-size: 165px;
   }
   h3{
-    font-size: 24px;
+    font-size: 34px;
   }
 }
 
 @media (max-width: 1000px) {
+  .homePage-wrapper{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .title{
+    margin-top: 0;
+  }
   h1{
     font-size: 130px;
   }
@@ -157,19 +174,12 @@ h3{
   }
 }
 
-@media (max-width: 699px){
-  header{
-    margin-top: 30px;
-  }
+@media only screen and (max-width: 699px){
 
-  .title{
-    -webkit-transform: translateY(-40%);
-    transform: translateY(-40%);
-  }
   h1{
-    font-size: 100px;
+    font-size: 70px;
   }
   h3{
-    font-size: 17px;
+    font-size: 21px;
   }
 }
