@@ -3,6 +3,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  margin-bottom: 60px;
 }
 
 .skills-content{
@@ -61,22 +62,23 @@ h2{
 
   .skills-wrapper{
     position: relative;
-    height: 100vh;
+    // height: 100vh;
   }
 
 
   .skills-content{
-    width: 450px;
-    height: 500px;
+    width: 95%;
+    height: 100%;
+    padding: 2rem 1rem 3rem;
   }
 
 
   .skills{
     .skill{
-    width: 110px;
-    height: 70px;
+    width: 75px;
+    height: 75px;
       .icon{
-      font-size: 40px;
+      font-size: 35px;
       color: #4a4a4a;
       }
     }

@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  margin-bottom: 40px;
 }
 
 .swiper-container{
@@ -76,3 +77,28 @@
   }
 }
 
+@media (max-width: 699px){
+
+  .experience-card{
+    padding: 20px 35px 20px;
+  
+    .experience-content{
+      font-size: 14px;
+      div{
+        margin-bottom: 20px;
+      }
+      li{
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+  .experience-title{
+    margin-bottom: 5px;
+    h3{
+      margin: 0;
+      font-size: 17px;
+    }
+  }
+
+}

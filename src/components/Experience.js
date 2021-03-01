@@ -28,10 +28,27 @@ function Experience() {
       <Nav />
       <section className="experience-wrapper">
         <Swiper
+          breakpoints={{
+
+            640: {
+              width: 640,
+              slidesPerView: 1,
+            },
+
+            768: {
+              width: 768,
+              slidesPerView: 1,
+            },
+
+            1024: {
+              width: 1000,
+              slidesPerView: 2,
+            }
+          }}
           style={{ width: '100%', padding: '50px 0', display: 'flex', justifyContent: 'center' }}
           spaceBetween={50}
           centeredSlides={true}
-          slidesPerView={2}
+          // slidesPerView={2}
           effect="coverflow"
           pagination={{ clickable: true }}
           grabCursor={true}

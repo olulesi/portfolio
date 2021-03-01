@@ -8,6 +8,7 @@ import Projects from './components/Projects'
 import ProjectShow from './components/ProjectShow'
 import Experience from './components/Experience'
 import AboutMe from './components/AboutMe'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
         <Route exact path="/experience" component={Experience} />
         <Route exact path="/aboutMe" component={AboutMe} />
       </Switch>
+      <Footer/>
     </BrowserRouter>
     </>
   )
