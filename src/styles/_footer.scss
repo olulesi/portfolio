@@ -5,7 +5,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  text-transform: uppercase;
+  // text-transform: uppercase;
   margin-top: -10px;
   margin-bottom: 30px;
   h4{
@@ -21,6 +21,15 @@
   display: flex;
   justify-content: center;
 }
+
+.wave {
+  animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;        /* Change to speed up or slow down */
+  animation-iteration-count: infinite;  /* Never stop waving :) */
+  transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
 
 .contact-wrapper{
   // height: 50vh;

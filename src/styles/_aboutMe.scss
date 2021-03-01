@@ -54,7 +54,6 @@
     background: rgba(225, 225, 225, 0.1);
     border-radius: 20px;
     // border:  3px solid  #787586;
-    backdrop-filter: blur(10px);
     // box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
     border-radius: 20px;
     width: 200px;
@@ -63,6 +62,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+    h4{
+      font-size: 20px;
+      color: #4a4a4a;
+      margin-bottom: 10px;
+    }
   
   }
 
@@ -95,6 +101,43 @@
     font-family: Atkinson-Hyperlegible-Bold-102;
   }
 }
+
+
+.interest-description{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #787586;
+  color: #fdf6f6;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+  line-height: 1.5em;
+  backdrop-filter: blur(10px);
+}
+
+.interest-description > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.interest-description:hover > *{
+  transform: translateY(0);
+}
+
+.interest-description:hover{
+  opacity: 1;
+  transition: 0.5 ease-in-out;
+}
+
 
 @media (max-width: 992px){
   .aboutMe-wrapper{

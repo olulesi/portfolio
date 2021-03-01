@@ -9,6 +9,7 @@ import { mdiFormatListChecks } from '@mdi/js';
 
 function AboutMe() {
 
+
   return (
 
     <>
@@ -39,41 +40,55 @@ function AboutMe() {
           </div>
           <div className="interest-section">
             <div className="interest">
+              <h4>Drawing</h4>
               <div className="interest-icon">
                 <Icon className="icon" path={mdiDraw}
-                  title="User Profile"
-                  size={5}
-                  color="#4a4a4a" />
-              </div>
-              <div className="interest-description"></div>
-            </div>
-            <div className="interest">
-              <div className="interest-icon">
-                <Icon style={{ width: '50px', height: '50px' }} path={mdiBookshelf}
-                  title="User Profile"
                   size={5}
                   color="#4a4a4a" />
               </div>
               <div className="interest-description">
+                <p>I enjoy drawing and complemented with my daily routine I was able to draw everyday for a whole year missing only one day from December 18th 2019 to 2020. </p>
               </div>
             </div>
             <div className="interest">
+              <h4>Favourite Books</h4>
+              <div className="interest-icon">
+                <Icon style={{ width: '50px', height: '50px' }} path={mdiBookshelf}
+                  size={5}
+                  color="#4a4a4a" />
+              </div>
+              <ul className="interest-description">
+              <li>Whatever you think, think the opposite,</li>
+              <li>HBR’s 10 Must Reads On Mental Toughness,</li>
+              <p>Atomic Habits,</p>
+              <li>The Richest Man of Babylon</li>
+              </ul>
+            </div>
+            <div className="interest">
+              <h4>Languages</h4>
               <div className="interest-icon">
                 <Icon path={mdiEarth}
-                  title="User Profile"
                   size={5}
                   color="#4a4a4a" />
               </div>
-              <div className="interest-description"></div>
+              <div className="interest-description">
+                <p>
+                  I started my joy of learning langugaes with Spanish and have continued this by learning my native language Yoruba.
+                </p>
+              </div>
             </div>
             <div className="interest">
+              <h4>Project Planning</h4>
               <div className="interest-icon">
                 <Icon path={mdiFormatListChecks}
-                  title="User Profile"
                   size={5}
                   color="#4a4a4a" />
               </div>
-              <div className="interest-description"></div>
+              <div className="interest-description">
+                <p>
+                  I created a community with my friends on slack and todoist in order to hold each other accountable to the tasks we set out to do each day.
+                </p>
+              </div>
             </div>
           </div>
         </div>
