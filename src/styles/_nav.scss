@@ -8,10 +8,19 @@ nav{
   font-family: 'B612', sans-serif;
 }
 
+.logo-wrapper{
+  img{
+    width: 100px;
+    height: 100px;
+  }
+}
+
+
 .nav-items-desktop{
   display: flex;
   width: 80%;
   justify-content: space-around;
+  align-items: center;
 }
 .nav-items-mobile{
   display: flex;

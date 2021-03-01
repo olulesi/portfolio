@@ -11,7 +11,7 @@ function Home() {
     <>
       <section className="contact-wrapper">
         <div className="contact-title">
-          <h4>Say Hello<span class="wave">👋🏾</span></h4>
+          <h4>Say Hello<span className="wave">👋🏾</span></h4>
         </div>
         <div className="contact-content">
             <a href="https://www.linkedin.com/in/oluwatobi-lesi/" >
