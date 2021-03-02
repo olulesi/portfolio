@@ -45,7 +45,7 @@ function Experience() {
               slidesPerView: 2,
             }
           }}
-          style={{ width: '100%', padding: '50px 0', display: 'flex', justifyContent: 'center' }}
+          style={{ width: '100vh', padding: '50px 0', display: 'flex', justifyContent: 'center', margin: '0' }}
           spaceBetween={50}
           centeredSlides={true}
           // slidesPerView={2}

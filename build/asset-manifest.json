@@ -1,20 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.7224ec3c.chunk.css",
-    "main.js": "/static/js/main.faaba5ab.chunk.js",
-    "main.js.map": "/static/js/main.faaba5ab.chunk.js.map",
+    "main.css": "/static/css/main.e8336365.chunk.css",
+    "main.js": "/static/js/main.f34d55ec.chunk.js",
+    "main.js.map": "/static/js/main.f34d55ec.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c012fedc.js",
     "runtime-main.js.map": "/static/js/runtime-main.c012fedc.js.map",
-    "static/js/2.e08032cf.chunk.js": "/static/js/2.e08032cf.chunk.js",
-    "static/js/2.e08032cf.chunk.js.map": "/static/js/2.e08032cf.chunk.js.map",
+    "static/css/2.f98f4616.chunk.css": "/static/css/2.f98f4616.chunk.css",
+    "static/js/2.0e7139fd.chunk.js": "/static/js/2.0e7139fd.chunk.js",
+    "static/js/2.0e7139fd.chunk.js.map": "/static/js/2.0e7139fd.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.7224ec3c.chunk.css.map": "/static/css/main.7224ec3c.chunk.css.map",
-    "static/js/2.e08032cf.chunk.js.LICENSE.txt": "/static/js/2.e08032cf.chunk.js.LICENSE.txt"
+    "static/css/2.f98f4616.chunk.css.map": "/static/css/2.f98f4616.chunk.css.map",
+    "static/css/main.e8336365.chunk.css.map": "/static/css/main.e8336365.chunk.css.map",
+    "static/js/2.0e7139fd.chunk.js.LICENSE.txt": "/static/js/2.0e7139fd.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/static/media/Atkinson-Hyperlegible-Regular-102.0f701896.ttf",
+    "static/media/UOL.a6d0f641.png": "/static/media/UOL.a6d0f641.png",
+    "static/media/ardmore (1).875cf75b.png": "/static/media/ardmore (1).875cf75b.png",
+    "static/media/citySpace.877caf4c.png": "/static/media/citySpace.877caf4c.png",
+    "static/media/costanza.7a5d6649.png": "/static/media/costanza.7a5d6649.png",
+    "static/media/faviconGA.637f8c6c.ico": "/static/media/faviconGA.637f8c6c.ico",
+    "static/media/intoUni.52a0d18c.png": "/static/media/intoUni.52a0d18c.png",
+    "static/media/lesi.8a312c86.png": "/static/media/lesi.8a312c86.png",
+    "static/media/paperTetris.9e8a5868.png": "/static/media/paperTetris.9e8a5868.png",
+    "static/media/project2.76a6f84d.png": "/static/media/project2.76a6f84d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c012fedc.js",
-    "static/js/2.e08032cf.chunk.js",
-    "static/css/main.7224ec3c.chunk.css",
-    "static/js/main.faaba5ab.chunk.js"
+    "static/css/2.f98f4616.chunk.css",
+    "static/js/2.0e7139fd.chunk.js",
+    "static/css/main.e8336365.chunk.css",
+    "static/js/main.f34d55ec.chunk.js"
   ]
 }

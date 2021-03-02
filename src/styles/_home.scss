@@ -23,7 +23,7 @@ header{
   color:#4a4a4a;
 }
 
-h1{
+.h1{
   font-family: 'DM Serif Display', serif;
   // font-family: 'Playfair Display', serif;
   font-size: 195px;
@@ -36,6 +36,19 @@ h1{
   // background: #ACA7CB;
   background-position: center;
   background-size: cover;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  .first-name {
+    margin-right: 72px;
+  }
+  .first-name, .second-name{
+    display: flex;
+    span{
+      display: inline-block;
+            position: relative;
+    }
+  }
 }
 
 

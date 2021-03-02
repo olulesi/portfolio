@@ -2,7 +2,7 @@ import React from 'react'
 import Media from 'react-media';
 import { Link } from 'react-router-dom'
 
-import Logo from '../images/lesi.png';
+import Logo from '../images/logo1.png';
 
 
 function Nav() {
