@@ -9,6 +9,25 @@
   padding-top: 65px;
 }
 
+.fullName{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Atkinson-Hyperlegible-Bold-102;
+  font-size: 30px;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 4.6s steps(60, end); 
+  // animation: fade-in 8s forwards;
+}
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+
 header{
   // background: url('.././images/blackScales.png');
   // // background: #ACA7CB;
@@ -81,7 +100,8 @@ h3{
   .title{
     margin-top: 0;
   }
-  h1{
+  .h1{
+    
     font-size: 165px;
   }
   h3{
@@ -100,7 +120,7 @@ h3{
   .title{
     margin-top: 0;
   }
-  h1{
+  .h1{
     font-size: 130px;
   }
   h3{
@@ -117,8 +137,11 @@ h3{
     justify-content: center;
   }
 
-  h1{
+  .h1{
     font-size: 70px;
+    .first-name {
+      margin-right: 32px;
+    }
   }
   h3{
     font-size: 21px;

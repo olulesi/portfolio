@@ -103,8 +103,13 @@ a:focus, a:hover, a:visited, a:link, a:active {
   0% {
     opacity: 0;
   }
-  100% {
+
+  50%{
     opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
   }
 }
 
@@ -127,4 +132,11 @@ a:focus, a:hover, a:visited, a:link, a:active {
  50% { transform: rotate(10.0deg) }
  60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
 100% { transform: rotate( 0.0deg) }
+}
+
+
+@keyframes image_blur {
+  0% { -webkit-filter: blur(0px);}
+50% { -webkit-filter: blur(5px);}
+100% { -webkit-filter: blur(0px);}
 }

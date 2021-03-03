@@ -24,10 +24,10 @@ function Projects() {
             <div className="project-title">
               <h3>Costanza</h3>
               <div className="project-links">
-                <a href="https://kanban-costanza.herokuapp.com/" >
+                <a href="https://kanban-costanza.herokuapp.com/" target="_blank" rel="noreferrer">
                   <FontAwesomeIcon className="social" icon={faGlobe} />
                 </a>
-                <a href="https://github.com/olulesi/sei-project-4" >
+                <a href="https://github.com/olulesi/sei-project-4" target="_blank" rel="noreferrer">
                   <FontAwesomeIcon className="social" icon={faGithub} />
                 </a>
               </div>
@@ -81,10 +81,10 @@ function Projects() {
             <div className="project-title">
               <h3>CitySpace</h3>
               <div className="project-links">
-                <a href="https://cityspace-site.herokuapp.com/" >
+                <a href="https://cityspace-site.herokuapp.com/" target="_blank" rel="noreferrer">
                   <FontAwesomeIcon className="social" icon={faGlobe} />
                 </a>
-                <a href="https://github.com/olulesi/sei-project-3" >
+                <a href="https://github.com/olulesi/sei-project-3" target="_blank" rel="noreferrer">
                   <FontAwesomeIcon className="social" icon={faGithub} />
                 </a>
               </div>
@@ -138,10 +138,10 @@ function Projects() {
             <div className="project-title">
               <h3>Whats In Your Fridge?</h3>
               <div className="project-links">
-                <a href="https://whats-in-ya-fridge.netlify.app/" >
+                <a href="https://whats-in-ya-fridge.netlify.app/" target="_blank" rel="noreferrer">
                   <FontAwesomeIcon className="social" icon={faGlobe} />
                 </a>
-                <a href="https://github.com/olulesi/project-2" >
+                <a href="https://github.com/olulesi/project-2" target="_blank" rel="noreferrer">
                   <FontAwesomeIcon className="social" icon={faGithub} />
                 </a>
               </div>
@@ -189,10 +189,10 @@ function Projects() {
             <div className="project-title">
               <h3>Paper Tetris</h3>
               <div className="project-links">
-                <a href="https://whats-in-ya-fridge.netlify.app/" >
+                <a href="https://olulesi.github.io/sei-project-1/" target="_blank" rel="noreferrer">
                   <FontAwesomeIcon className="social" icon={faGlobe} />
                 </a>
-                <a href="https://olulesi.github.io/sei-project-1/" >
+                <a href="https://github.com/olulesi/sei-project-1" target="_blank" rel="noreferrer">
                   <FontAwesomeIcon className="social" icon={faGithub} />
                 </a>
               </div>

@@ -9,7 +9,6 @@ import { mdiFormatListChecks } from '@mdi/js';
 
 function AboutMe() {
 
-
   return (
 
     <>

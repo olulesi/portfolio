@@ -3,10 +3,11 @@
   transform: translateY(0%);
   width: 80%;
   position: relative;
-  // height: 100vh;
+  min-height: 100vh;
   margin: 30px auto;
   display: flex;
   flex-direction: column;
+
   .aboutMe-div{
     margin: 10px 0;
     width: 20%;
