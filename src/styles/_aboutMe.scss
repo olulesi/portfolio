@@ -3,11 +3,10 @@
   transform: translateY(0%);
   width: 80%;
   position: relative;
-  min-height: 100vh;
+  // height: 100vh;
   margin: 30px auto;
   display: flex;
   flex-direction: column;
-
   .aboutMe-div{
     margin: 10px 0;
     width: 20%;
@@ -55,6 +54,7 @@
     background: rgba(225, 225, 225, 0.1);
     border-radius: 20px;
     // border:  3px solid  #787586;
+    backdrop-filter: blur(10px);
     // box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
     border-radius: 20px;
     width: 200px;
@@ -116,13 +116,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   padding: 10px;
   text-align: center;
   opacity: 0;
   transition: opacity 0.25s;
   line-height: 1.5em;
-  backdrop-filter: blur(10px);
 }
 
 .interest-description > * {

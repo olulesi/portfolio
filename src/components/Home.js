@@ -1,8 +1,8 @@
 import React from 'react'
 import Nav from './Nav'
-import { RandomReveal } from 'react-random-reveal'
+// import { RandomReveal } from 'react-random-reveal'
 
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion } from 'framer-motion'
 
 function Home() {
 
@@ -12,17 +12,17 @@ function Home() {
   return (
 
     <>
-      <AnimatePresence>
+      <>
         <motion.section className="homePage-wrapper">
           <header>
-            <div className="fullName">
+            {/* <div className="fullName">
               <RandomReveal
                 isPlaying
                 duration={4.6}
                 revealDuration={0.5}
                 characters="Oluwatobi Ebunoluwa Adewale Lesi"
               />
-            </div>
+            </div> */}
             <div className="title">
               <motion.div className="h1">
                 <motion.span initial={{ y: 200 }}
@@ -62,8 +62,7 @@ function Home() {
           </header>
           <Nav />
         </motion.section>
-
-      </AnimatePresence>
+      </>
     </>
   )
 
