@@ -121,6 +121,7 @@
   opacity: 0;
   transition: opacity 0.25s;
   line-height: 1.5em;
+  flex-direction: column;
 }
 
 .interest-description > * {
