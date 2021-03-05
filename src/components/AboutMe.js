@@ -29,7 +29,7 @@ function AboutMe() {
               In turn, this generated an eagerness of having in-depth knowledge on both the front-end and the back-end as well as consolidating the foundations I have built from both university and GA.
             </p>
             <p>
-              I am looking for a team where we can be constantly challenging each other to meet the loft ambitions that we strategise towards. In order to highlight my unwavering determination to reach the goals set in front of me.
+              I am looking for a team where we can be constantly challenging each other to meet the lofty ambitions that we strategise towards. In order to highlight my unwavering determination to reach the goals set in front of me.
             </p>
           </div>
           <div className="interests-title">
@@ -57,10 +57,10 @@ function AboutMe() {
                   color="#4a4a4a" />
               </div>
               <ul className="interest-description">
-              <li>Whatever you think, think the opposite,</li>
-              <li>HBR’s 10 Must Reads On Mental Toughness,</li>
+              <p>Whatever you think, think the opposite,</p>
+              <p>HBR’s 10 Must Reads On Mental Toughness,</p>
               <p>Atomic Habits,</p>
-              <li>The Richest Man of Babylon</li>
+              <p>The Richest Man of Babylon</p>
               </ul>
             </div>
             <div className="interest">
